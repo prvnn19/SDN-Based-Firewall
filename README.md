@@ -6,6 +6,22 @@
 ## 📌 Project Overview
 This project demonstrates the implementation of a **Software-Defined Networking (SDN) Firewall**. By utilizing the **POX Controller**, we decouple the control plane from the data plane, allowing for centralized management of network security policies. The firewall dynamically pushes flow rules to an **Open vSwitch (OVS)** to block or allow traffic based on IP addresses and TCP ports.
 
+---
+
+## 🖼️ Execution Proof
+
+### 1. Controller Logs & Rule Enforcement
+This screenshot shows the POX controller actively intercepting traffic and logging blocked attempts from h1 to h3 and TCP port violations.
+
+![Controller Execution](logs_screenshot_1.jpg)
+
+### 2. Mininet Topology & Testing
+This screenshot shows the network topology initialization and the `pingall` results verifying the firewall's impact on network connectivity.
+
+![Mininet Testing](logs_screenshot_2.jpg)
+
+---
+
 ### Key Features
 - **Dynamic Policy Enforcement**: Real-time packet inspection and rule installation.
 - **Efficient Flow Management**: Uses `ofp_flow_mod` with idle timeouts to minimize controller-switch communication.
