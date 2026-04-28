@@ -13,12 +13,12 @@ This project demonstrates the implementation of a **Software-Defined Networking 
 ### 1. Controller Logs & Rule Enforcement
 This screenshot shows the POX controller actively intercepting traffic and logging blocked attempts from h1 to h3 and TCP port violations.
 
-![Controller Execution](logs_screenshot_1.jpg)
+![Controller Execution](logs_screenshot_1.jpeg)
 
 ### 2. Mininet Topology & Testing
 This screenshot shows the network topology initialization and the `pingall` results verifying the firewall's impact on network connectivity.
 
-![Mininet Testing](logs_screenshot_2.jpg)
+![Mininet Testing](logs_screenshot_2.jpeg)
 
 ---
 
