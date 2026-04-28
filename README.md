@@ -1,4 +1,3 @@
-Below is the complete, all-in-one GitHub project documentation. You can copy this entire block into your `README.md` file. It combines the technical details, code explanations, and tutorial into a professional portfolio format.
 
 ---
 
