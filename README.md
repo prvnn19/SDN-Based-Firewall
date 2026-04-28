@@ -112,5 +112,3 @@ This ensures that once a violation is detected, the switch handles the drop loca
 
 ---
 
-## 📄 License
-This project is released under the **MIT License**. Feel free to use and modify for educational purposes.
