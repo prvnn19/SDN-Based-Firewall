@@ -8,6 +8,14 @@ This project demonstrates the implementation of a **Software-Defined Networking 
 
 ---
 
+### Key Features
+- **Dynamic Policy Enforcement**: Real-time packet inspection and rule installation.
+- **Efficient Flow Management**: Uses `ofp_flow_mod` with idle timeouts to minimize controller-switch communication.
+- **Layer 2 Learning**: Integrated MAC-to-port learning logic for standard traffic forwarding.
+- **Custom Topology**: A specialized 3-host, 1-switch network environment.
+
+---
+
 ## 🖼️ Execution Proof
 
 ### 1. Controller Logs & Rule Enforcement
@@ -19,14 +27,6 @@ This screenshot shows the POX controller actively intercepting traffic and loggi
 This screenshot shows the network topology initialization and the `pingall` results verifying the firewall's impact on network connectivity.
 
 ![Mininet Testing](logs_screenshot_2.jpeg)
-
----
-
-### Key Features
-- **Dynamic Policy Enforcement**: Real-time packet inspection and rule installation.
-- **Efficient Flow Management**: Uses `ofp_flow_mod` with idle timeouts to minimize controller-switch communication.
-- **Layer 2 Learning**: Integrated MAC-to-port learning logic for standard traffic forwarding.
-- **Custom Topology**: A specialized 3-host, 1-switch network environment.
 
 ---
 
